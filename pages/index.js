@@ -1,63 +1,55 @@
 import Head from 'next/head'
+import Link from 'next/link'
+import React from 'react'
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="container" style={{
+      backgroundImage: `url("https://www.si3.ae/wp-content/uploads/2018/08/Web-design-development-dubai.jpg")`,backgroundRepeat: 'no-repeat',width:'100%',height:'100%',display: 'inline-block'
+       }}>
       <Head>
-        <title>Create Next App</title>
+        <title>Code and Smoke</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <a href="https://rdsharma.webs.com">Smoke Creams</a>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          <code className="day">Day dreaming</code> <code className="night">Night coding</code>
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://rdsharma.webs.com" className="card">
+            <h3><code>Blogging.... &rarr;</code></h3>
+            <p><code className='day'>Find new post and articles</code></p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="/posts/first-post" className="card">
+            <h3><code>First Post &rarr;</code></h3>
+            <p><code className='day'>See your first post!</code></p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://github.com/ritik-sharma38"
             className="card"
           >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+            <h3><code>Explore &rarr;</code></h3>
+            <p><code className='day'>Explore the wrold of night coding</code></p>
+          </a>
+
+          <a
+            className="card"
+          >
+            <h3><code>Love & Care &rarr;</code></h3>
+            <p><code className='day'>
+            Moonlight and Sunshine, I've been fool</code>
             </p>
           </a>
         </div>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
 
       <style jsx>{`
         .container {
@@ -103,7 +95,7 @@ export default function Home() {
         }
 
         .title a {
-          color: #0070f3;
+          color: #fff;
           text-decoration: none;
         }
 
@@ -138,6 +130,11 @@ export default function Home() {
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
 
+        .day {
+          color: #fff;
+          background: #000
+        }
+
         .grid {
           display: flex;
           align-items: center;
@@ -163,19 +160,21 @@ export default function Home() {
         .card:hover,
         .card:focus,
         .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
+          color: #000;
+          border-color: #000;
         }
 
         .card h3 {
           margin: 0 0 1rem 0;
           font-size: 1.5rem;
+          color: #000;
         }
 
         .card p {
           margin: 0;
           font-size: 1.25rem;
           line-height: 1.5;
+          color: #fff;
         }
 
         .logo {
