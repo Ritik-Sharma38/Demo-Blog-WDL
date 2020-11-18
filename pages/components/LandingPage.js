@@ -3,13 +3,14 @@ import { Button } from './Button';
 import styles from '../../styles/Home.module.css'
 
 function LandingPage() {
+  console.log(React.version);
   return (
     <div className={styles.heroContainer}>
       <video className={styles.video} src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>MoonLight Sunshine</h1>
       <p>I've been fool !</p>
       <div className={styles.heroBtns}>
-      <Button
+        <Button
           className={styles.btn}
           buttonStyle={styles.btnOutline}
           buttonSize={styles.btnLarge}
