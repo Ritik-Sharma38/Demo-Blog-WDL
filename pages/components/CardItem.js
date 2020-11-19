@@ -12,7 +12,7 @@ function CardItem(props) {
               className={styles.cardsItemImg}
               alt='Travel Image'
               src={props.src}
-              unsized 
+              layout='fill' 
             />
           </figure>
           <div className={styles.cardsItemInfo}>
