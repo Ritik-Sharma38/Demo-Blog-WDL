@@ -5,7 +5,9 @@
 
 ## Tech Stack
 
-![](https://img.shields.io/badge/Framework-Next.js-informational?style=flat&logo=data:image/svg%2bxml;base64,<BASE64_DATA>)
+![](https://img.shields.io/badge/React-v17.0.1-informational?style=flat&logo=data:image/svg%2bxml;base64,%3CBASE64_DATA%3E)
+![](https://img.shields.io/badge/Next.js-v%5E10.0.0-informational?style=flat&logo=data:image/svg%2bxml;base64,%3CBASE64_DATA%3E)
+![](https://img.shields.io/badge/Node-v14.14.6-informational?style=flat&logo=data:image/svg%2bxml;base64,%3CBASE64_DATA%3E)
 ![](https://img.shields.io/badge/Code-JavaScript-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Code-CSS3-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Shell-Zsh-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=5a4fcf)
