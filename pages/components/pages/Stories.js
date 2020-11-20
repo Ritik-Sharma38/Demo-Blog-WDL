@@ -1,10 +1,11 @@
 import React from "react";
+import Navbar from '../Navbar'
 
 export default function Services() {
   return (
-    // <div> STORY BOARD
+    <>
+      <Navbar />
       <h1 className="services">STORIES</h1>
-      // <p> Dance in the air </p>
-    // </div>
+    </>
   );
 }

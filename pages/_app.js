@@ -2,7 +2,7 @@
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
-  console.log('Hello from _app.tsx')
+  console.log('Developer Nmaes:\nRitik Sharma\nShivani Shimpi')
   return <Component {...pageProps} />
 }
 

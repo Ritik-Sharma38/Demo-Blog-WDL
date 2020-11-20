@@ -9,25 +9,25 @@ function Cards() {
       <div className={styles.cardsContainer}>
         <div className={styles.cardsWrapper}>
           <ul className={styles.cardsItems}>
-            <Link href="posts/post1">
+            <a href="posts/post1" className={styles.cardsItems}>
               <CardItem
                 src="/images/img-9.jpg"
-                text="Explore the hidden waterfall in Panvel, Navi Mumbai"
+                text="Explore the hidden waterfall in Panvel Navi Mumbai"
                 label="Adventure"
                 path="/services"
               />
-            </Link>
-            <Link href="posts/post1">
+            </a>
+            <a href="posts/post1" className={styles.cardsItems}>
               <CardItem
                 src="/images/img-2.jpg"
-                text="Travel through the mountain range of kalyan in a Private Cruise"
+                text="Travel through the mountains of kalyan in a Cruise"
                 label="Luxury"
                 path="/services"
               />
-            </Link>
+            </a>
           </ul>
           <ul className={styles.cardsItems}>
-            <a href="posts/post1">
+            <a href="posts/post1" className={styles.cardsItems}>
               <CardItem
                 src="/images/img-3.jpg"
                 text="Set Sail in the Indian Ocean visiting Uncharted Waters"
@@ -35,7 +35,7 @@ function Cards() {
                 path="/services"
               />
             </a>
-            <a href="posts/post1">
+            <a href="posts/post1" className={styles.cardsItems}>
               <CardItem
                 src="/images/img-4.jpg"
                 text="Experience Football on Top of the Karnala Mountains"
@@ -43,7 +43,7 @@ function Cards() {
                 path="/products"
               />
             </a>
-            <a href="posts/post1">
+            <a href="posts/post1" className={styles.cardsItems}>
               <CardItem
                 src="/images/img-8.jpg"
                 text="Ride through the Thar Desert on a guided camel tour"

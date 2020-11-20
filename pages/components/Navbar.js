@@ -48,7 +48,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <a
-                href='/components/pages/Blog'
+                href='/components/pages/posts/post1'
                 className={styles.navLinks}
                 onClick={closeMobileMenu}
               >
