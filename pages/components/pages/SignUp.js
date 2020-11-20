@@ -1,5 +1,11 @@
 import React from 'react';
+import Navbar from '../Navbar'
 
 export default function SignUp() {
-  return <h1 className='signUp'>LIKE & SUBSCRIBE</h1>;
+  return (
+    <>
+      <Navbar />
+      <h1 className='signUp'>LIKE & SUBSCRIBE</h1>
+    </>
+  );
 }

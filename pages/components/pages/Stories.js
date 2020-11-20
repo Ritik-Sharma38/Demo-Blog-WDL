@@ -1,5 +1,11 @@
-import React from 'react';
+import React from "react";
+import Navbar from '../Navbar'
 
 export default function Services() {
-  return <h1 className='services'>STORIES</h1>;
+  return (
+    <>
+      <Navbar />
+      <h1 className="services">STORIES</h1>
+    </>
+  );
 }
