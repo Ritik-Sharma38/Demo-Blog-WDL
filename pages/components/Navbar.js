@@ -3,6 +3,7 @@ import { Button } from './Button';
 import styles from '../../styles/Navbar.module.css'
 
 function Navbar() {
+  
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 

@@ -1,9 +1,10 @@
 import CardItem from "./CardItem";
+import React, { useState } from 'react'
 import styles from "../../styles/Cards.module.css";
-import Link from "next/link";
 
-function Cards() {
-  return (
+export default function Cards({data}) {
+
+  return ( 
     <div className={styles.cards}>
       <h1 className={styles.heading}>Check out our EPIC Stories!</h1>
       <div className={styles.cardsContainer}>
@@ -12,8 +13,8 @@ function Cards() {
             <a href="posts/post1" className={styles.cardsItems}>
               <CardItem
                 src="/images/img-9.jpg"
-                text="Explore the hidden waterfall in Panvel Navi Mumbai"
-                label="Adventure"
+                text='Explore the hidden waterfall in Panvel Navi Mumbai'
+                label="try"
                 path="/services"
               />
             </a>
@@ -57,5 +58,3 @@ function Cards() {
     </div>
   );
 }
-
-export default Cards;

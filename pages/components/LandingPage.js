@@ -3,7 +3,6 @@ import { Button } from './Button';
 import styles from '../../styles/Home.module.css'
 
 function LandingPage() {
-  console.log(React.version);
   return (
     <div className={styles.heroContainer}>
       <video className={styles.video} src='/videos/video-1.mp4' autoPlay loop muted />
