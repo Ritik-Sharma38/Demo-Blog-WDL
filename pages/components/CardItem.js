@@ -15,7 +15,7 @@ function CardItem(props) {
               alt="Travel Image"
               src={props.src}
               layout="fill"
-              // unsized
+              unsized
             />
           </figure>
           <div className={styles.cardsItemInfo}>

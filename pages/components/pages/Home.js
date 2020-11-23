@@ -72,24 +72,24 @@ function Home({data}) {
               <a href="posts/post1" className={styles.cardsItems}>
                 <CardItem
                   src="/images/img-3.jpg"
-                  text={data[1].name}
-                  label={data[1].label}
+                  text={data[2].name}
+                  label={data[2].label}
                   path="/services"
                 />
               </a>
               <a href="posts/post1" className={styles.cardsItems}>
                 <CardItem
                   src="/images/img-4.jpg"
-                  text={data[1].name}
-                  label={data[1].label}
+                  text={data[3].name}
+                  label={data[3].label}
                   path="/products"
                 />
               </a>
               <a href="posts/post1" className={styles.cardsItems}>
                 <CardItem
                   src="/images/img-8.jpg"
-                  text={data[1].name}
-                  label={data[1].label}
+                  text={data[4].name}
+                  label={data[4].label}
                   path="/sign-up"
                 />
               </a>
