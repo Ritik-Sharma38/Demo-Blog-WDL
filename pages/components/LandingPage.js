@@ -7,7 +7,7 @@ function LandingPage() {
     <div className={styles.heroContainer}>
       <video className={styles.video} src='/videos/video-1.mp4' autoPlay loop muted />
       <h1>MoonLight Sunshine</h1>
-      <p>I've been fool !</p>
+      <p>I've been a fool !</p>
       <div className={styles.heroBtns}>
         <Button
           className={styles.btn}
