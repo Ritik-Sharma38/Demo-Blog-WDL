@@ -14,7 +14,7 @@ export default function Cards({data}) {
               <CardItem
                 src="/images/img-9.jpg"
                 text='Explore the hidden waterfall in Panvel Navi Mumbai'
-                label="try"
+                label="Adventure"
                 path="/services"
               />
             </a>

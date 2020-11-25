@@ -42,6 +42,7 @@ export async function getStaticProps(){
 }
 
 function Home({data}) {
+  console.log("data from home", data)
   return (
     <>
       <Navbar />

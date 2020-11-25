@@ -40,7 +40,7 @@ function Navbar() {
             </li>
             <li className={styles.navItem}>
               <a
-                href='/components/pages/Stories'
+                href='/components/pages/Stories/Stories'
                 className={styles.navLinks}
                 onClick={closeMobileMenu}
               >

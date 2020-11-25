@@ -1,0 +1,119 @@
+.postContainer {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+  }
+
+.container {
+    background-color: #ffffff;
+}
+.storyCover{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.postContainer > h1 {
+    color: #fff;
+    font-size: 80px;
+    margin-top: 12%;
+}
+  
+.postContainer > p {
+    margin-top: 12px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.heading {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+}
+
+.leftColumn {
+    float: left;
+    width: 75%;
+}
+
+.rightColumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+
+.card {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.04);
+    padding: 5%;
+    margin-top: 20px;
+}
+
+.card > h2 {
+    color: #000000;
+}
+
+.card > h4 {
+    margin-top: 12px;
+}
+
+.card > h5 {
+    margin-top: 14px;
+    color: #000000;
+}
+
+.cardsItemImg {
+    margin-top: 12px;
+    width: 30%;
+}
+
+.autherImage {
+    width: 15%;
+}
+
+.card > p {
+    margin-top: 12px;
+}
+
+.content {
+    padding-right: 10%;
+}
+
+.content > h3 {
+    margin-top: 12px;
+    color: #252e48;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.content > p {
+    margin-top: 12px;
+    color: #252e48;
+  
+    line-height: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
