@@ -16,17 +16,17 @@ export default function Cards() {
             <ul className={styles.cardsItems}>
               <a href="../posts/Post" className={styles.cardsItems}>
                 <CardItem
-                  src="/images/img-9.jpg"
-                  text='Explore the hidden waterfall in Panvel Navi Mumbai'
-                  label="Adventure"
+                  src="/images/img-17.jpg"
+                  text='The heart of non sleeping city, Marine drive, Mumbai - The city of love            '
+                  label="Peace"
                   path="/services"
                 />
               </a>
               <a href="../posts/Post" className={styles.cardsItems}>
                 <CardItem
-                  src="/images/img-2.jpg"
-                  text="Travel through the mountains of kalyan in a Cruise"
-                  label="Luxury"
+                  src="/images/img-18.jpg"
+                  text="God never be angry with me, even if the whole world gets angry"
+                  label="Place of God"
                   path="/services"
                 />
               </a>

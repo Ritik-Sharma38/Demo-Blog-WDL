@@ -10,8 +10,8 @@ function Cover() {
             src='/images/img-13.jpg'
             fluid
         />
-      <h1>Title of the post</h1>
-      <p>Title desciption, May 31, 2020</p>
+      <h1>Adventure</h1>
+      <p>Panvel, Mumbai, May 31, 2020</p>
     </div>
   );
 }

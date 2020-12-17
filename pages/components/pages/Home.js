@@ -5,6 +5,8 @@ import styles from "../../../styles/Cards.module.css";
 import Footer from '../Footer';
 import Navbar from '../Navbar';
 
+var globalData = ""
+
 export async function getStaticProps(){
   try{
     const mysql = require('serverless-mysql')({
@@ -14,17 +16,17 @@ export async function getStaticProps(){
     })
     mysql.config({
       host     : "sql12.freemysqlhosting.net",
-      database : "sql12377971",
-      user     : "sql12377971",
-      password : "Qv6mRXVnqL"
+      database : "sql12382581",
+      user     : "sql12382581",
+      password : "jBYcRrmaCX"
     })
   
     const rresults = await mysql.query("SELECT * FROM posts")
     var data=[]
     for(let i=0; i<5; i++){
       var post = {
-        name: rresults[i].name,
-        label: rresults[i].label
+        name: rresults[i].label,
+        label: rresults[i].name
       }
       data.push(post)
     }
@@ -33,7 +35,7 @@ export async function getStaticProps(){
     console.log("Error:",error)
     data=[]
   }
-
+  globalData=data
   return {
     props: {
       data,
@@ -42,7 +44,6 @@ export async function getStaticProps(){
 }
 
 function Home({data}) {
-  console.log("data from home", data)
   return (
     <>
       <Navbar />
@@ -104,3 +105,8 @@ function Home({data}) {
 }
 
 export default Home;
+
+export const GlobalData = async() => {
+  console.log("gloabal data", globalData)
+  return(globalData)
+}

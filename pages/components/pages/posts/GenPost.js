@@ -8,13 +8,13 @@ export default function GenPost(){
     return(
         <div className={styles.container}>
             <div className={styles.heading}>
-                <h3>Story title</h3>
+                <h3>Moonlight</h3>
             </div>
             <div className={styles.row}>
                 <div className={styles.leftColumn}>
                     <div className={styles.card}>
-                        <h2>Heading of the post</h2>
-                        <h5>Title description, May 31, 2020</h5>
+                        <h2>Waterfall</h2>
+                        <h5>May 31, 2020</h5>
                         <div className={styles.cardImage}>
                             <Image
                                 className={styles.cardsItemImg}
@@ -111,8 +111,8 @@ export default function GenPost(){
                         </div>
                     </div>
                     <div className={styles.card}>
-                        <h2>Heading of the post</h2>
-                        <h5>Title description, June 24, 2020</h5>
+                        <h2>Beache</h2>
+                        <h5>June 24, 2020</h5>
                         <div className={styles.cardImage}>
                             <Image
                                 className={styles.cardsItemImg}
