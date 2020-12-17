@@ -8,16 +8,20 @@
 
 .heroContainer {
   /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  /* height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column; */
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* border: 2px blue solid; */
+  /* align-items: center; */
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  object-fit: contain;
+  /* object-fit: contain; */
 }
-
 .heroContainer > h1 {
   color: #fff;
   font-size: 100px;
@@ -28,12 +32,97 @@
   margin-top: 12px;
   color: #fff;
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
+
+.sub_heroContainer {
+  padding-top: 4%;
+  align-items: bottom;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+  object-fit: contain;
+  margin-top: 6%;
+}
+.sub_heroContainer > h1 {
+  color: #fff;
+  font-size: 100px;
+  /* margin-top: -100px; */
+}
+
+.sub_heroContainer > p {
+  margin-top: 12px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+/* .heroContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+.heroContainer > h1 {
+  color: #fff;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.heroContainer > p {
+  margin-top: 12px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+} */
 
 .heroBtns {
   margin-top: 32px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainbutton {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: purple solid 2px; */
+  /* padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20%; */
+  text-transform: uppercase;
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+  flex: 1;
+}
+.leftbutton {
+  background-attachment: fixed;
+  /* color: white; */
+  /* padding: 0%; */
+  /* border: 2px red solid; */
+  text-align: center;
+  padding-left: 35%;
+  text-transform: uppercase;
+}
+
+.rightbutton {
+  /* height: 50%; */
+  /* align-items: center; */
+  text-align: center;
+  /* flex-direction: flex-start; */
+  padding-right: 35%;
+  text-transform: uppercase;
 }
 
 .heroBtns .btn {
@@ -69,5 +158,4 @@
   .btn {
     width: 100%;
   }
-
 }

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../../styles/Postpage.module.css";
 import CardItem from "./CardItem";
 import style from "../../styles/Cards.module.css";
+import Link from "next/link"
 
 export default function Post1() {
 
